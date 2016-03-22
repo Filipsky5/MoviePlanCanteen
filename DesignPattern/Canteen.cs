@@ -9,6 +9,9 @@ namespace DesignPattern
     public class Canteen : Subject
     {
         private List<Worker> workers;
+
+
+
         private WorkerValidator validator;
 
         public Canteen(WorkerValidator val)
